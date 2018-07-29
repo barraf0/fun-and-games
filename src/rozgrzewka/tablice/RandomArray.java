@@ -10,7 +10,7 @@ public class RandomArray {
     }
 
     public static void main(String[] args) {
-        int[] tablica = new int[10];
+        int[] tablica = new int[20];
         for (int i = 0; i < tablica.length; i++) {
             tablica[i] = fill();
             System.out.println(tablica[i]);
